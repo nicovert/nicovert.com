@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+	color: white;
+	background-color: #282828;
+}
+
+a {
+	text-decoration: none;
+	color: #585858;
+}
+
+.main {
+	padding: 300px;
+}
+
+.name {
+	font-weight: 600;
+	font-size: 100px;
+}
+
+.nav {
+	padding-left: 8px;
+}
+
+.item {
+	display: flex;
+	width: 400px;
+	color: #585858;
+	stroke: #585858;
+	transition: color 1s;
+}
+
+.item:hover {
+	color: white;
+	transition: color 1s;
+}
+
+.item svg {
+	fill: #585858;
+	transition: fill 1s;
+}
+
+.item:hover svg {
+	fill: white;
+	transition: fill 1s;
+}
+
+.caption {
+	font-size: 24px;
+	padding-left: 14px;
+	padding-top: 12px;
+}
