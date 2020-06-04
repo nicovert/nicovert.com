@@ -10,7 +10,8 @@ a {
 }
 
 .main {
-	padding: 300px;
+	padding: 16%;
+	/*padding: 300px;*/
 }
 
 .name {
@@ -49,4 +50,6 @@ a {
 	font-size: 24px;
 	padding-left: 14px;
 	padding-top: 12px;
+	/*padding-left: 3.5%;
+	padding-top: 3%;*/
 }
