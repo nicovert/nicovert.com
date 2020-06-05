@@ -10,7 +10,7 @@
 }
 
 body {
-	font-family: sourcesans;
+	font-family: sourcesans, sans-serif;
 	font-feature-settings: "ss01", "ss02", "ss03", "ss04";
 	color: white;
 	background-color: #282828;
@@ -28,7 +28,7 @@ a {
 }
 
 .name {
-	font-family: sourcesansSemibold;
+	font-family: sourcesansSemibold, sans-serif;
 	font-size: 666%;
 }
 
