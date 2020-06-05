@@ -1,5 +1,17 @@
+@font-face {
+	font-family: sourcesans;
+	src: url(fonts/SourceSansPro-Regular.ttf);
+
+}
+
+@font-face {
+	font-family: sourcesansSemibold;
+	src: url(fonts/SourceSansPro-Semibold.ttf);
+}
+
 body {
-	font-family: sans-serif;
+	font-family: sourcesans;
+	font-feature-settings: "ss01", "ss02", "ss03", "ss04";
 	color: white;
 	background-color: #282828;
 }
@@ -10,18 +22,18 @@ a {
 }
 
 .main {
-	padding: 16%;
 	/*padding: 300px;*/
+	padding: 16%;
 	width: 40%;
 }
 
 .name {
-	font-weight: 600;
-	font-size: 625%;
+	font-family: sourcesansSemibold;
+	font-size: 666%;
 }
 
 .nav {
-	padding-left: 1.2%;
+	padding-left: 1.1%;
 }
 
 .item {
