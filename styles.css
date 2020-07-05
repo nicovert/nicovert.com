@@ -30,6 +30,9 @@ a {
 .name {
 	font-family: sourcesansSemibold, sans-serif;
 	font-size: 666%;
+	line-height: 1;
+	margin-bottom: 3%;
+	margin-top: 2%;
 }
 
 .nav {
