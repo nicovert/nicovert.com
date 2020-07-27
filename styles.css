@@ -13,11 +13,12 @@
 }
 
 body {
-	font-family: sourcesans, serif;
+	font-family: sourcesans, sans-serif;
 	font-weight: 400;
 	/*font-feature-settings: "ss01", "ss02", "ss03", "ss04";*/
 	color: white;
 	background-color: #282828;
+	overflow: hidden;
 }
 
 a {
@@ -32,7 +33,7 @@ a {
 }
 
 .name {
-	font-family: sourcesansSemibold, serif;
+	font-family: sourcesansSemibold, sans-serif;
 	font-weight: 600;
 	font-size: 666%;
 	line-height: 1;
