@@ -1,17 +1,21 @@
 @font-face {
 	font-family: sourcesans;
-	src: url(fonts/SourceSansPro-Regular.ttf);
-
+	src: url(fonts/sourcesanspro-regular-web.woff2) format('woff2'),
+		 url(fonts/sourcesanspro-regular-web.woff) format('woff'),
+		 url(fonts/sourcesanspro-regular-web.ttf) format('truetype');
 }
 
 @font-face {
 	font-family: sourcesansSemibold;
-	src: url(fonts/SourceSansPro-Semibold.ttf);
+	src: url(fonts/sourcesanspro-semibold-web.woff2) format('woff2'),
+		 url(fonts/sourcesanspro-semibold-web.woff) format('woff'),
+		 url(fonts/sourcesanspro-semibold-web.ttf) format('truetype');
 }
 
 body {
-	font-family: sourcesans, sans-serif;
-	font-feature-settings: "ss01", "ss02", "ss03", "ss04";
+	font-family: sourcesans, serif;
+	font-weight: 400;
+	/*font-feature-settings: "ss01", "ss02", "ss03", "ss04";*/
 	color: white;
 	background-color: #282828;
 }
@@ -28,7 +32,8 @@ a {
 }
 
 .name {
-	font-family: sourcesansSemibold, sans-serif;
+	font-family: sourcesansSemibold, serif;
+	font-weight: 600;
 	font-size: 666%;
 	line-height: 1;
 	margin-bottom: 3%;
