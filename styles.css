@@ -49,7 +49,7 @@ a {
 	display: flex;
 	width: 50%;
 	color: #585858;
-	stroke: #585858;
+	/*stroke: #585858;*/
 	transition: color 1s;
 }
 
