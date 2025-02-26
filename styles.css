@@ -51,11 +51,45 @@ a {
 	color: #585858;
 	/*stroke: #585858;*/
 	transition: color 1s;
+
+	.obfuscateEmail::before {
+		content: "nico@";
+		margin-right: -4px;
+		opacity: 0.2;
+		transition: opacity 1s;
+	}
+
+	.obfuscateEmail {
+		margin-left: -64px;
+		transition: margin-left 1s;
+	}
+
+	.obfuscateEmail::after {
+		content: ".com";
+		margin-left: -4px;
+		opacity: 0.2;
+		transition: opacity 1s;
+	}
 }
 
 .item:hover {
 	color: white;
 	transition: color 1s;
+
+	.obfuscateEmail::before {
+		opacity: 1;
+		transition: opacity 1s;
+	}
+
+	.obfuscateEmail {
+		margin-left: 0;
+		transition: margin-left 1s;
+	}
+	
+	.obfuscateEmail::after {
+		opacity: 1;
+		transition: opacity 1s;
+	}
 }
 
 .item svg {
