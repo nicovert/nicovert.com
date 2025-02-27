@@ -26,11 +26,20 @@ a {
 	color: #585858;
 }
 
-.main {
-	/*padding: 300px;*/
-	padding: 16%;
-	width: 40%;
+@media (orientation: landscape) {
+	.main {
+		padding: 16%;
+		padding-top: 12%;
+	}
 }
+
+@media (orientation: portrait) {
+	.main {
+		padding-top: 10%;
+		justify-content: flex-end;
+	}
+}
+
 
 .name {
 	font-family: sourcesansSemibold, sans-serif;
@@ -38,16 +47,16 @@ a {
 	font-size: 666%;
 	line-height: 1;
 	margin-bottom: 3%;
-	margin-top: 2%;
 }
 
 .nav {
-	padding-left: 1.1%;
+	padding-left: 8px;
 }
 
 .item {
 	display: flex;
-	width: 50%;
+	width: "min-content";
+	white-space: nowrap;
 	color: #585858;
 	transition: color 1s;
 
